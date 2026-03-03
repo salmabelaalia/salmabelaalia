@@ -13,11 +13,11 @@
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVhenhxNnp1bTVhaXJ4c3V6d2V0cmxvMnpzNHRmdWV4djRvNHpmcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/L1R1tvI9svkIWwpVYr/200.webp" width="220"/>
+
 </div>
 
 ---
-
-<img align="right" width="280" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVhenhxNnp1bTVhaXJ4c3V6d2V0cmxvMnpzNHRmdWV4djRvNHpmcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/L1R1tvI9svkIWwpVYr/200.webp"/>
 
 ## 👩‍💻 `whoami`
 
@@ -37,8 +37,6 @@ class SalmaBelaalia:
 me = SalmaBelaalia()
 me.say_hi()
 ```
-
-<br clear="both"/>
 
 ---
 
@@ -98,13 +96,19 @@ me.say_hi()
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=salmabelaalia&show_icons=true&theme=dark&bg_color=0D1117&border_color=30363D&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&hide_border=false&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salmabelaalia&layout=compact&theme=dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF&text_color=C9D1D9&hide_border=false"/>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=salmabelaalia&show_icons=true&theme=github_dark&bg_color=0D1117&border_color=30363D&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&hide_border=false&count_private=true" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salmabelaalia&layout=compact&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF&text_color=C9D1D9&hide_border=false" />
+    </td>
+  </tr>
+</table>
 
-</div>
+<img src="https://streak-stats.demolab.com?user=salmabelaalia&theme=dark&background=0D1117&border=30363D&ring=58A6FF&fire=FF6E6E&currStreakLabel=58A6FF&hide_border=false" />
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salmabelaalia&theme=dark&background=0D1117&border=30363D&ring=58A6FF&fire=FF6E6E&currStreakLabel=58A6FF" />
 </div>
 
 ---
@@ -112,7 +116,7 @@ me.say_hi()
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=salmabelaalia&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=salmabelaalia&theme=darkhub&no-frame=false&no-bg=true&margin-w=6&column=6"/>
 </div>
 
 ---
@@ -120,7 +124,7 @@ me.say_hi()
 ## 📊 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salmabelaalia&radius=16&theme=react-dark&area=true&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6E6E" height="300"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salmabelaalia&radius=16&theme=react-dark&area=true&hide_border=false&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6E6E" height="280"/>
 </div>
 
 ---
