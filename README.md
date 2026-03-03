@@ -1,54 +1,26 @@
-<!-- HEADER BANNER -->
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║        > INITIALIZING PROFILE...                                 ║
-║        > LOADING: Salma Belaalia                                 ║
-║        > STATUS: Full Stack Developer & Data Scientist           ║
-║        > LOCATION: Morocco 🇲🇦                                   ║
-║        > MODE: Building the future, one model at a time ⚡       ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVhenhxNnp1bTVhaXJ4c3V6d2V0cmxvMnpzNHRmdWV4djRvNHpmcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/L1R1tvI9svkIWwpVYr/200.webp" width="220"/>
-
+  <img src="https://raw.githubusercontent.com/salmabelaalia/salmabelaalia/main/banner.svg" width="100%" alt="Salma Belaalia Banner"/>
 </div>
 
----
-
-## 👩‍💻 `whoami`
-
-```python
-class SalmaBelaalia:
-    def __init__(self):
-        self.name        = "Salma Belaalia"
-        self.role        = ["Full Stack Developer", "Data Science Student"]
-        self.education   = "Master's in Data Science & Analytics"
-        self.passions    = ["AI", "Machine Learning", "Web Dev", "Problem Solving"]
-        self.languages   = ["Python", "Java", "Kotlin", "PHP", "JS", "C/C++"]
-        self.mindset     = "Turn data into decisions 🧠"
-
-    def say_hi(self):
-        print("Welcome to my GitHub! Let's build something incredible. 🚀")
-
-me = SalmaBelaalia()
-me.say_hi()
-```
+<br/>
 
 ---
 
-## 🧠 About Me
+### 💜 I'm Salma!
 
-> *"I don't just write code — I engineer solutions, decode data, and craft experiences."*
+<img align="right" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVhenhxNnp1bTVhaXJ4c3V6d2V0cmxvMnpzNHRmdWV4djRvNHpmcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/L1R1tvI9svkIWwpVYr/200.webp" width="200"/>
 
-🎓 **Master's student** in Data Science & Analytics  
-💻 **Full Stack Developer** — from pixel-perfect UI to scalable backend architecture  
-📊 **Data Enthusiast** — transforming raw data into actionable intelligence  
-📱 **Mobile Developer** — native Android apps with Kotlin & Java  
-⚡ **Problem Solver** — algorithms, optimization, and innovative thinking  
+**Full Stack Developer & Data Science Student** 🇲🇦
+
+- 🎓 Master's student in **Data Science & Analytics**
+- 💻 Building complete web apps — UI to backend
+- 📱 Native Android dev with **Kotlin & Java**
+- 🧠 Passionate about **AI & Machine Learning**
+- ⚡ I love turning complex problems into elegant solutions
+- 🌱 Currently leveling up in **Deep Learning**
+- 📫 Reach me: **salmabelaalia09@gmail.com**
+
+<br clear="both"/>
 
 ---
 
@@ -92,31 +64,14 @@ me.say_hi()
 
 ---
 
-## 📈 GitHub Analytics
+## 📈 GitHub Stats
 
 <div align="center">
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=salmabelaalia&show_icons=true&theme=github_dark&bg_color=0D1117&border_color=30363D&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9&hide_border=false&count_private=true" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salmabelaalia&layout=compact&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF&text_color=C9D1D9&hide_border=false" />
-    </td>
-  </tr>
-</table>
 
-<img src="https://streak-stats.demolab.com?user=salmabelaalia&theme=dark&background=0D1117&border=30363D&ring=58A6FF&fire=FF6E6E&currStreakLabel=58A6FF&hide_border=false" />
 
-</div>
+<img src="https://streak-stats.demolab.com?user=salmabelaalia&theme=dark&background=0D1117&border=30363D&ring=00D4FF&fire=FF2D78&currStreakLabel=00D4FF&sideLabels=C9D1D9&dates=8B949E" alt="streak"/>
 
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=salmabelaalia&theme=darkhub&no-frame=false&no-bg=true&margin-w=6&column=6"/>
 </div>
 
 ---
@@ -124,32 +79,23 @@ me.say_hi()
 ## 📊 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salmabelaalia&radius=16&theme=react-dark&area=true&hide_border=false&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6E6E" height="280"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salmabelaalia&theme=react-dark&bg_color=0D1117&color=00D4FF&line=FF2D78&point=FFFFFF&area=true&hide_border=false" height="260" alt="activity graph"/>
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Let's Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/salma-belaalia-37b347339/)
-[![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:salmabelaalia09@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/salmabel02/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/salma-belaalia-37b347339/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:salmabelaalia09@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/salmabel02/)
 
 </div>
 
 ---
 
-<div align="center">
-
-```
-╔═══════════════════════════════════════╗
-║   "Data is the new oil.               ║
-║    I'm here to refine it." 🛢️➡️✨     ║
-╚═══════════════════════════════════════╝
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=salmabelaalia&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS)
+![Visitor Count](https://komarev.com/ghpvc/?username=salmabelaalia&color=00D4FF&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
