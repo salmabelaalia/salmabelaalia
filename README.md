@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="file:///C:/Users/pc/Downloads/banner.svg" width="100%" alt="Salma Belaalia Banner"/>
+  <img src="b1.png" width="100%" alt="Salma Belaalia Banner"/>
 </div>
 
 <br/>
