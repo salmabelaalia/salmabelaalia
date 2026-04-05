@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="b1.png" width="100%" alt="Salma Belaalia Banner"/>
+  <img src="https://raw.githubusercontent.com/salmabelaalia/salmabelaalia/main/b1.png" width="100%" alt="Salma Belaalia Banner"/>
 </div>
 
 <br/>
