@@ -1,0 +1,163 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D1117;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Cyan glow -->
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Pink glow -->
+    <filter id="pinkGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Text glow -->
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1F2937" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+
+    <!-- Clip for avatar circle -->
+    <clipPath id="avatarClip">
+      <circle cx="120" cy="140" r="75"/>
+    </clipPath>
+
+    <!-- Animation for pulse ring -->
+    <style>
+      .pulse-ring {
+        animation: pulse 2.5s ease-in-out infinite;
+        transform-origin: 120px 140px;
+      }
+      .pulse-ring-2 {
+        animation: pulse 2.5s ease-in-out infinite 0.8s;
+        transform-origin: 120px 140px;
+      }
+      @keyframes pulse {
+        0% { opacity: 0.7; transform: scale(1); }
+        50% { opacity: 0.3; transform: scale(1.08); }
+        100% { opacity: 0.7; transform: scale(1); }
+      }
+      .blink {
+        animation: blink 1.1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .float {
+        animation: float 4s ease-in-out infinite;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .slide-in-left {
+        animation: slideLeft 1s ease-out forwards;
+      }
+      @keyframes slideLeft {
+        from { opacity: 0; transform: translateX(-30px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      .tag-fade {
+        animation: tagFade 3s ease-in-out infinite alternate;
+      }
+      @keyframes tagFade {
+        from { opacity: 0.7; }
+        to { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bgGrad)" rx="16"/>
+  <rect width="900" height="280" fill="url(#grid)" rx="16" opacity="0.4"/>
+
+  <!-- Decorative corner accents -->
+  <line x1="0" y1="20" x2="20" y2="0" stroke="#00D4FF" stroke-width="2" rx="16"/>
+  <rect x="0" y="0" width="4" height="40" fill="#00D4FF" rx="2"/>
+  <rect x="0" y="0" width="40" height="4" fill="#00D4FF" rx="2"/>
+  <rect x="856" y="0" width="44" height="4" fill="#FF2D78" rx="2"/>
+  <rect x="896" y="0" width="4" height="40" fill="#FF2D78" rx="2"/>
+  <rect x="0" y="236" width="4" height="44" fill="#FF2D78" rx="2"/>
+  <rect x="0" y="276" width="40" height="4" fill="#FF2D78" rx="2"/>
+  <rect x="856" y="276" width="44" height="4" fill="#00D4FF" rx="2"/>
+  <rect x="896" y="236" width="4" height="44" fill="#00D4FF" rx="2"/>
+
+  <!-- Left neon circle decorations behind avatar -->
+  <circle cx="120" cy="140" r="92" fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.3" class="pulse-ring"/>
+  <circle cx="120" cy="140" r="82" fill="none" stroke="#FF2D78" stroke-width="1" opacity="0.2" class="pulse-ring-2"/>
+
+  <!-- Avatar background circle -->
+  <circle cx="120" cy="140" r="75" fill="#161B22"/>
+  <circle cx="120" cy="140" r="75" fill="none" stroke="#00D4FF" stroke-width="2.5" filter="url(#cyanGlow)"/>
+
+  <!-- Avatar placeholder — emoji style coder -->
+  <text x="120" y="158" font-size="68" text-anchor="middle" class="float">👩‍💻</text>
+
+  <!-- Status dot -->
+  <circle cx="176" cy="96" r="10" fill="#0D1117"/>
+  <circle cx="176" cy="96" r="7" fill="#00FF88"/>
+  <circle cx="176" cy="96" r="7" fill="none" stroke="#00FF88" stroke-width="2" filter="url(#cyanGlow)"/>
+
+  <!-- MAIN TITLE -->
+  <text x="265" y="85" font-family="'Courier New', monospace" font-size="13" fill="#00D4FF" filter="url(#cyanGlow)" opacity="0.8">// Hello World! 👋</text>
+
+  <text x="262" y="138" font-family="Georgia, serif" font-size="42" font-weight="900" fill="white" letter-spacing="1">
+    Salma
+    <tspan fill="#00D4FF" filter="url(#cyanGlow)"> Belaalia</tspan>
+  </text>
+
+  <!-- Subtitle tags -->
+  <!-- Tag 1 -->
+  <rect x="262" y="152" width="155" height="26" rx="13" fill="#00D4FF" opacity="0.15"/>
+  <rect x="262" y="152" width="155" height="26" rx="13" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.6"/>
+  <text x="270" y="169" font-family="'Courier New', monospace" font-size="11.5" fill="#00D4FF">⚡ Full Stack Dev</text>
+
+  <!-- Tag 2 -->
+  <rect x="426" y="152" width="160" height="26" rx="13" fill="#FF2D78" opacity="0.15"/>
+  <rect x="426" y="152" width="160" height="26" rx="13" fill="none" stroke="#FF2D78" stroke-width="1" opacity="0.6"/>
+  <text x="434" y="169" font-family="'Courier New', monospace" font-size="11.5" fill="#FF2D78">🧠 Data Scientist</text>
+
+  <!-- Tag 3 -->
+  <rect x="595" y="152" width="155" height="26" rx="13" fill="#A855F7" opacity="0.15"/>
+  <rect x="595" y="152" width="155" height="26" rx="13" fill="none" stroke="#A855F7" stroke-width="1" opacity="0.6"/>
+  <text x="603" y="169" font-family="'Courier New', monospace" font-size="11.5" fill="#A855F7">📱 Mobile Dev</text>
+
+  <!-- Terminal typing line -->
+  <rect x="262" y="196" width="500" height="36" rx="6" fill="#0A0F16" opacity="0.9"/>
+  <rect x="262" y="196" width="500" height="36" rx="6" fill="none" stroke="#30363D" stroke-width="1"/>
+  <circle cx="281" cy="214" r="5" fill="#FF5F57"/>
+  <circle cx="298" cy="214" r="5" fill="#FFBD2E"/>
+  <circle cx="315" cy="214" r="5" fill="#28CA41"/>
+  <text x="332" y="219" font-family="'Courier New', monospace" font-size="12" fill="#8B949E">$</text>
+  <text x="346" y="219" font-family="'Courier New', monospace" font-size="12" fill="#00D4FF">python</text>
+  <text x="408" y="219" font-family="'Courier New', monospace" font-size="12" fill="#C9D1D9"> build_future.py --mode=ML</text>
+  <text x="666" y="219" font-family="'Courier New', monospace" font-size="14" fill="#00D4FF" class="blink">▋</text>
+
+  <!-- Morocco flag badge -->
+  <rect x="762" y="196" width="100" height="36" rx="6" fill="#161B22"/>
+  <rect x="762" y="196" width="100" height="36" rx="6" fill="none" stroke="#30363D" stroke-width="1"/>
+  <text x="812" y="219" font-family="'Courier New', monospace" font-size="20" text-anchor="middle">🇲🇦</text>
+</svg>
